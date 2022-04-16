@@ -1,0 +1,27 @@
+.btn-shadow:hover {
+    box-shadow: 0px 3px 1px black;
+}
+
+// 通用按鈕
+.btn-yellow {
+    border: 1px solid #3A3A3A;
+    &:hover {
+        background-color: #F9C745;
+        color: #3A3A3A;
+        border: 1px solid #F9C745;
+    }
+}
+
+// 底部小圖按鈕
+.btn-img-change {
+    background-image: url(../images/btn.png);
+    display: block;
+    width: 140px;
+    height: 153px;
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    &:hover {
+        background-image: url(../images/btn2.png);
+    }
+}

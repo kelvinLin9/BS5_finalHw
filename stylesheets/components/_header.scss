@@ -1,0 +1,25 @@
+.header-bg {
+    background-image: url(../images/home_mobile.png);
+    background-size: cover;
+    background-position: center;
+    height: 635px;
+    margin-top: 74px;
+}
+
+//桌面版
+@include media-breakpoint-up(md) {
+    .header-bg {
+        background-image: url(../images/home.png);
+        background-size: cover;
+        background-position: center center;
+        height: 810px;
+        margin-top: 74px;
+    }
+    .header-text {
+        font-family: 'Kalam', cursive;
+        color: #838761;
+        -webkit-text-stroke: 1px white;
+        font-size: 50px;
+    }
+}
+
